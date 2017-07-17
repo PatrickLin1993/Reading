@@ -27,6 +27,7 @@
 
 ### 3. 相似性学习 (Simularity Learning)
 
+#### 3.1 学习模型
 作者设计了一个三层全连接的网络模型：
 
 ![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/sl.png)
@@ -34,6 +35,8 @@
 其中 soft-max 激活函数：
 
 ![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/soft-max.jpg)
+
+#### 3.2 损失函数
 
 训练过程采用交叉熵损失函数 (cross-entropy loss)，相似性比较基于SIFT特征（对于相似性比较，实验发现SIFT特征优于L2以及余弦距离）。
 
@@ -44,12 +47,16 @@
 * `n`为训练数据个数，前一个`y`代表输出，后一个`^y`代表预期输出。
 * 输出越接近输出预期输出，则结果越趋近于0，反之为更大的正值。
 
+#### 3.3 问题
+
 训练过程中有两个问题：
 
 * 似物性采样返回的过多物体导致训练复杂度过高。
 * pose difference 街拍图和网售图的姿态差异性。
 
 因此，作者先根据余弦距离，将似物性采样返回的所有物体进行排序，取出排名前1000个物体，利用这1000个物体作为正负样本对模型进行训练。
+
+#### 3.4 微调
 
 最后作者把衣物分成了5个大类，并根据每个类对网络模型进行了微调：
 
