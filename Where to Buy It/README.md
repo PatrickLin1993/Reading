@@ -1,5 +1,7 @@
 # Where to Buy It: Matching Street Clothing Photos in Online Shops
 
+[原文 - Where to Buy It](http://acberg.com/papers/wheretobuyit2015iccv.pdf)
+
 ## 摘要
 
 * 该文所做的工作就是将街拍图片中的衣物同网络在线商店的衣物图片进行检索匹配。
