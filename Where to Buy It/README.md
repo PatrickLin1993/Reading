@@ -9,8 +9,7 @@
 * 作者提出了三种不同的方法实现该匹配过程，包括两个深度学习基本线方法，和一个从街拍图片到在线商店图片的相似性学习方法。
 * 实验证明了作者的相似性学习方法表现优于另外两个使用现存基于深度学习表达的基本线方法。
 
-作者提供了数据集的下载：
-[Dataset]([http://www.tamaraberg.com/street2shop/)
+作者提供了数据集的下载： [Dataset](http://www.tamaraberg.com/street2shop/)
 
 ## 方法
 
