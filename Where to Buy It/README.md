@@ -31,7 +31,7 @@
 
 其中 soft-max 激活函数：
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/soft-max.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/soft-max.jpg)
 
 训练过程采用交叉熵损失函数 (cross-entropy loss)，相似性比较基于SIFT特征（对于相似性比较，实验发现SIFT特征优于L2以及余弦距离）。
 
