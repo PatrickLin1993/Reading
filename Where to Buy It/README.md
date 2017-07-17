@@ -58,7 +58,7 @@
 
 #### 3.4 微调
 
-最后作者把衣物分成了5个大类，并根据每个类对网络模型进行了微调：
+作者把衣物分成了5个大类，并根据每个类对网络模型进行了微调，得到五个类别的相似性学习模型：
 
 ![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/slnet.png)
 
