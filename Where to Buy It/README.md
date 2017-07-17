@@ -17,7 +17,7 @@
 
 [关于 AlexNet](http://www.jianshu.com/p/58168fec534d?from=androidqq)
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/AlexNet.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/AlexNet.png)
 
 ### 2. 似物性采样检索 (Object Proposal Retrieval)
 
@@ -27,32 +27,32 @@
 
 作者设计了一个三层全连接的网络模型：
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/sl.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/sl.png)
 
 其中 soft-max 激活函数：
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/soft-max.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/soft-max.png)
 
 训练过程采用交叉熵损失函数 (cross-entropy loss)，相似性比较基于SIFT特征（对于相似性比较，实验发现SIFT特征优于L2以及余弦距离）。
 
 [关于交叉熵函数](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/chap3/c3s1.html#)
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/crossentropy.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/crossentropy.png)
 
 * `n`为训练数据个数，前一个`y`代表输出，后一个`^y`代表预期输出。
 * 输出越接近输出预期输出，则结果越趋近于0，反之为更大的正值。
 
 最后作者把衣物分成了5个大类，并根据每个类对网络模型进行了微调：
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/slnet.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/slnet.png)
 
 ### 实验结果
 
 作者给出了效果图，前三个为成功匹配，后三个为失败匹配。
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/res1.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/res1.png)
 
 以及 top-k 实验比较图：
 
-![](https://github.com/PatrickLin1993/Reading/blob/master/Where to Buy It/pics/res2.png)
+![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/res2.png)
 
