@@ -1,6 +1,6 @@
 # Where to Buy It: Matching Street Clothing Photos in Online Shops
 
-[原文 - Where to Buy It](http://acberg.com/papers/wheretobuyit2015iccv.pdf)
+[原文 ICCV2015 - Where to Buy It](http://acberg.com/papers/wheretobuyit2015iccv.pdf)
 
 ## 摘要
 
