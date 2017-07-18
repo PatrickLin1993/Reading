@@ -17,7 +17,9 @@
 
 使用 AlexNet 对街拍图片中提前标注好的窗体内的衣物进行特征提取， 然后计算在线商店衣物图全图的CNN特征。最后根据余弦距离判断相似度。
 
-[关于 AlexNet](http://www.jianshu.com/p/58168fec534d?from=androidqq)
+[关于 AlexNet (1)](http://www.jianshu.com/p/58168fec534d?from=androidqq)
+
+[关于 AlexNet (2)](http://www.cnblogs.com/yymn/p/4553839.html)
 
 ![](https://github.com/PatrickLin1993/Reading/blob/master/Where%20to%20Buy%20It/pics/AlexNet.png)
 
