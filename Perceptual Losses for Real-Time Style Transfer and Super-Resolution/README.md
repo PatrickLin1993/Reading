@@ -152,18 +152,8 @@ ResNet 由何凯明在2015年提出，夺得 Imagenet 中五项第一。
 
 
 
+## 参考
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [[译] Perceptual Losses for Real-Time Style Transfer and Super-Resolution（Stanford University）](http://www.jianshu.com/p/b728752a70e9)
+* [机器学习进阶笔记之六 | 深入理解Fast Neural Style](https://zhuanlan.zhihu.com/p/23651687?utm_source=tuicool&utm_medium=referral)
 
