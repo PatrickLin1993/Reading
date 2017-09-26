@@ -6,6 +6,8 @@
 
 [Image Style Transfer Using Convolutional Neural Networks - CVPR 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 
+![](pics/wave.jpg)
+
 ## 1. 摘要
 
 风格迁移可以当成纹理迁移问题。纹理迁移问题在之前采用的是一些非参方法，通过一些专有的固定方法来渲染。这些传统方法的问题在于只能提取底层特征而非高层抽象特征。随着 CNN 的日渐成熟，从原始图片中，将内容和风格分离仍然十分困难，但是我们可以使用 CNN 对输入图片的高层抽象特征进行学习提取。
