@@ -8,9 +8,7 @@
 
 ![](pics/author.png)
 
-膜拜一下。
-
-顺便贴下作者SIG 2017 的论文，图像补全预测：
+作者SIG 2017 的论文，图像补全预测：
 
 [Globally and Locally Consistent Image Completion - SIGGRAPH 2017](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/)
 
