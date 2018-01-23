@@ -1,10 +1,12 @@
 # Learning a Deep Convolutional Network for Image Super-Resolution
 
-2014年 ECCV，作者来自香港中文大学的 Chao Dong 等人，以及来自微软研院的 Kaiming He。
+作者来自香港中文大学的 Chao Dong 等人，以及来自微软研院的 Kaiming He。
 
 论文地址：
 
 [2014 ECCV - SRCNN - PDF](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf)
+
+[2015 TPAMI - SRCNN -PDF](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7115171)
 
 项目地址：
 
